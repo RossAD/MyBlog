@@ -30,6 +30,10 @@ blockquote {
   margin: auto;
   opacity: 0.85;
 }
+.div-wrapper ul{
+  float: right;
+  display: inline flex;
+}
 /* Mobile Sizing 20em - 30em (320px - 480px) */
 /* iPad Sizing 30em - 56.25 (480px - 900px) */
 /* Desktop Sizing 56.25em - Up (900px - Up) */

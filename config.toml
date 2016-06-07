@@ -1,3 +1,26 @@
 blogTitle = "Welcome to Ross's Blog"
 authorName = "Ross Davis"
-linkPrefix = "/gatsby-starter-blog"
+linkPrefix = "/blog"
+
+[navigation]
+home = "/"
+blog = "/blog/"
+about = "/about/"
+resume = "/resume/"
+portfolio = "/portfolio/"
+contact = "/contact/"
+
+[about]
+title = "About"
+blurb = "Below is a brief summary of me, my motivations, and my pusuits."
+dir = "about"
+
+[resume]
+title = "Resume"
+dir = "resume"
+
+[blog]
+title = "Blog"
+blurb = "This is my blog"
+dir = "blog"
+

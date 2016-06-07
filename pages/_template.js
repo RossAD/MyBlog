@@ -4,7 +4,7 @@ import { Container } from 'react-responsive-grid'
 import { prefixLink } from 'gatsby-helpers'
 import { rhythm, fontSizeToMS } from 'utils/typography'
 import { config } from 'config'
-
+import Navigation from 'components/Navigation'
 import '../css/styles.css'
 
 class Template extends React.Component {
@@ -53,7 +53,7 @@ class Template extends React.Component {
           padding: `${rhythm(2)} ${rhythm(1/2)}`,
         }}
       >
-        {header}
+        <Navigation />
         {children}
       </Container>
     )

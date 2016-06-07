@@ -2,7 +2,7 @@
 body {
   /* display: flex; */
   color: rgb(66,66,66);
-  background-image: url("http://i.imgur.com/U63X656.jpg");
+  background: vertical-gradient(#cce0ff, #ffffff, #cce0ff)
 }
 h1,h2,h3,h4,h5,h6 {
   color: rgb(44,44,44);
@@ -23,81 +23,153 @@ blockquote {
 }
 .landing-page {
   }
-#react-mount {
-  background-color: #f7f7f7;
-  margin: auto;
-  opacity: 0.65;
+/* #react-mount { */
+/*   background-color: #f7f7f7; */
+/*   margin: auto; */
+/*   opacity: 0.65; */
+/* } */
+img.pano {
+  width:100%;
+  height:5%;
+}
+div.wrapper {
+  width: 100%;
+  /* overflow: hidden; */
+  display: inline-flex;
 }
 nav {
-  width:100%;
-}
-nav ul {
-  -webkit-font-smoothing:antialiased;
-  text-shadow:0 1px 0 #FFF;
-  background: #ddd;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  float: right;
-}
-nav li {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  min-width: 25%;
-}
-nav a {
-  background: #ddd;
-  color: #444;
-  display: block;
-  font: bold 16px/50px sans-serif;
-  padding: 0 25px;
-  text-align: center;
-  text-decoration: none;
-  transition: all .25s ease;
-}
-nav .dropdown:after {
-  content: ' ▶';
-}
-nav .dropdown:hover:after{
-  content:'\25bc'
-}
-nav li:hover a {
-  background: #ccc;
-}
-nav li ul {
-  float: right;
   left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 35px;
-  visibility: hidden;
-  transition: all .25s ease;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
-nav li:hover ul {
-  opacity: 0.75;
-  top: 50px;
-  visibility: visible;
+div.brand {
+  font-size: 1.25em;
+  padding: 1.3em 0.5em .7em;
+  margin-left: -0.3em;
 }
-nav li ul li {
-  float: none;
-  /* width: 100%; */
+/* .brand{ */
+/*   float: left; */
+/*   margin: auto; */
+/* } */ 
+div.dropdown {
+  float:right;
+  padding: 1.3em 0em .7em 1em;
+  margin:auto;
 }
-nav li ul a:hover {
-  background: #bbb;
-  
-}
-/* Clearfix */
 
-.cf:after, .cf:before {
-    content:"";
-}
-.cf:after {
-    clear:both;
-}
-/* Mobile Sizing 20em - 30em (320px - 480px) */
-/* iPad Sizing 30em - 56.25 (480px - 900px) */
 /* Desktop Sizing 56.25em - Up (900px - Up) */
+@media screen and (min-width: 980px) {
+  
+  #dropTag {
+    display:none;
+  }
+  ul .menu li {
+    display:inline-flex;
+  }
+  ul .menu li a {
+    padding: 10px 15px;
 
+  }
+  /* .cf { */
+  /*   display: inline-flex; */
+  /* } */
+}
+
+/* iPad Sizing 30em - 56.25 (480px - 900px) */
+@media screen and (max-width: 979px) {
+  #dropTag {
+    display:none;
+  }
+  ul.menu li {
+    display:inline-flex;
+  }
+  ul.menu li a {
+    padding: 10px 20px;
+
+  }
+  /* .cf { */
+  /*   display: inline-flex; */
+  /* } */
+}
+
+/* Mobile Sizing 20em - 30em (320px - 480px) */
+@media screen and (max-width: 750px) {
+  #dropTag {
+    display: flex;
+  }
+  nav {
+    width:100%;
+  }
+  ul.menu {
+    margin-right: .5em;
+  }
+  nav ul {
+    -webkit-font-smoothing:antialiased;
+    text-shadow:0 1px 0 #FFF;
+    /* background: #ddd; */
+    list-style: none;
+    margin: auto;
+    /* padding: 1.3em 1em .7em; */
+    padding: 0;
+    width: 100%;
+    float: right;
+  }
+  nav li {
+    margin: auto;
+    padding: 0;
+    position: relative;
+    min-width: 35%;
+  }
+  div.dropdown a {
+    background: #ddd;
+    color: #444;
+    display: block;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease;
+  }
+  /* nav .dropdown:after { */
+  /*   content: ' ▶'; */
+  /* } */
+  /* nav .dropdown:hover:after{ */
+  /*   content:'\25bc' */
+  /* } */
+  nav li:hover a {
+    background: #ccc;
+  }
+  nav li ul {
+    float: right;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    transition: all .25s ease;
+  }
+  nav li:hover ul {
+    opacity: 0.75;
+    top: 30px;
+    visibility: visible;
+  }
+  nav li ul li {
+    float: none;
+    width: 100%;
+  }
+  nav li ul a:hover {
+    background: #bbb;
+
+  }
+  /* Clearfix */
+
+  .cf:after, .cf:before {
+    content:"";
+  }
+  .cf:after {
+    clear:both;
+  }
+
+}
 

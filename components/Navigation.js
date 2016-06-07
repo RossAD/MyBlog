@@ -31,13 +31,13 @@ class Navigation extends React.Component {
       <header >
         <nav role="navigation">
           <div className="wrapper">
-            <div className="brand js-brand">
+            <div className="brand">
               <a href={config.navigation.home}>{config.blogTitle}</a>
             </div>
-            <div >
-            <ul class="cf" >
-              <li><a class="dropdown" href="#">Menu</a>
-                <ul>
+            <div className="dropdown" >
+            <ul className="cf" style={{listStyle:"none"}} >
+              <li><a id="dropTag" href="#">Menu</a>
+                <ul className="menu" style={{listStyle:"none"}}>
                   {navLinks}
                 </ul>
               </li>
@@ -45,6 +45,9 @@ class Navigation extends React.Component {
             </div>
           </div>
         </nav>
+        <div>
+          <img className="pano" src="http://i.imgur.com/ioBCWe8.jpg" />
+        </div>
       </header>
     )
   }

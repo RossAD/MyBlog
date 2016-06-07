@@ -19,7 +19,6 @@ class Template extends React.Component {
           padding: `${rhythm(2)} ${rhythm(1/2)}`,
         }}
       >
-        
         {children}
       </Container>
       </div>

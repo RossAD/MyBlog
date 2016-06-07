@@ -11,15 +11,18 @@ class Template extends React.Component {
   render () {
     const { location, children } = this.props
     return (
+      <div>
+      <Navigation />
       <Container
         style={{
           maxWidth: rhythm(24),
           padding: `${rhythm(2)} ${rhythm(1/2)}`,
         }}
       >
-        <Navigation />
+        
         {children}
       </Container>
+      </div>
     )
   }
 }

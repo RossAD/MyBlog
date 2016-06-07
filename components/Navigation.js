@@ -28,17 +28,23 @@ class Navigation extends React.Component {
       }
     }
     return (
-      <header>
-      <nav role="navigation">
-      <div className="wrapper" style={{display: 'inline-flex'}}>
-      <div className="brand js-brand">
-      <a href={config.navigation.home}>{config.blogTitle}</a>
-      </div>
-      <ul>
-      {navLinks}
-      </ul>
-      </div>
-      </nav>
+      <header >
+        <nav role="navigation">
+          <div className="wrapper">
+            <div className="brand js-brand">
+              <a href={config.navigation.home}>{config.blogTitle}</a>
+            </div>
+            <div >
+            <ul class="cf" >
+              <li><a class="dropdown" href="#">Menu</a>
+                <ul>
+                  {navLinks}
+                </ul>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </nav>
       </header>
     )
   }

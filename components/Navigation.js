@@ -1,6 +1,7 @@
 import React from 'react'
 import { config } from 'config'
 import { link } from 'gatsby-helpers'
+import { prefixLink } from 'gatsby-helpers'
 
 class Navigation extends React.Component {
   showMenu () {

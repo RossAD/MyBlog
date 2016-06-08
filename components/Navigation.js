@@ -47,7 +47,7 @@ class Navigation extends React.Component {
           </div>
         </nav>
         <div>
-          <img className="pano" src="http://i.imgur.com/ioBCWe8.jpg" />
+          <img className="pano" src="http://i.imgur.com/nb1A6Bp.jpg" />
         </div>
       </header>
     )

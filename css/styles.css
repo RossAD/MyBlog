@@ -2,7 +2,7 @@
 body {
   /* display: flex; */
   color: rgb(66,66,66);
-  background: vertical-gradient(#cce0ff, #ffffff, #cce0ff)
+  background: #ffffff;
 }
 h1,h2,h3,h4,h5,h6 {
   color: rgb(44,44,44);
@@ -21,12 +21,10 @@ blockquote {
   margin-right: 0;
   padding-right: 0;
 }
-.landing-page {
-  }
 /* #react-mount { */
 /*   background-color: #f7f7f7; */
 /*   margin: auto; */
-/*   opacity: 0.65; */
+/*   opacity: 0.75; */
 /* } */
 img.pano {
   width:100%;

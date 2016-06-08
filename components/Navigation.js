@@ -1,6 +1,7 @@
 import React from 'react'
 import { config } from 'config'
 import { link } from 'gatsby-helpers'
+import { prefixLink } from 'gatsby-helpers'
 
 class Navigation extends React.Component {
   showMenu () {
@@ -28,17 +29,26 @@ class Navigation extends React.Component {
       }
     }
     return (
-      <header>
-      <nav role="navigation">
-      <div className="wrapper" style={{display: 'inline-flex'}}>
-      <div className="brand js-brand">
-      <a href={config.navigation.home}>{config.blogTitle}</a>
-      </div>
-      <ul>
-      {navLinks}
-      </ul>
-      </div>
-      </nav>
+      <header >
+        <nav role="navigation">
+          <div className="wrapper">
+            <div className="brand">
+              <a href={config.navigation.home}>{config.blogTitle}</a>
+            </div>
+            <div className="dropdown" >
+            <ul className="cf" style={{listStyle:"none"}} >
+              <li><a id="dropTag" href="#">Menu</a>
+                <ul className="menu" style={{listStyle:"none"}}>
+                  {navLinks}
+                </ul>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+        <div>
+          <img className="pano" src="http://i.imgur.com/nb1A6Bp.jpg" />
+        </div>
       </header>
     )
   }

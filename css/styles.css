@@ -21,6 +21,10 @@ blockquote {
   margin-right: 0;
   padding-right: 0;
 }
+.intro p::first-letter { 
+  font-size: 200%;
+  color: #8A2BE2;
+}
 /* #react-mount { */
 /*   background-color: #f7f7f7; */
 /*   margin: auto; */
@@ -59,7 +63,7 @@ div.dropdown {
 
 /* Desktop Sizing 56.25em - Up (900px - Up) */
 @media screen and (min-width: 980px) {
-  
+
   #dropTag {
     display:none;
   }

@@ -1,6 +1,10 @@
 blogTitle = "RossADavis.com"
-authorName = "Ross Davis"
+authorName = "Ross A Davis"
 linkPrefix = "/blog"
+email = "ross.ad@gmail.com"
+github = "https://github.com/RossAD"
+linkedin = "https://www.linkedin.com/in/rossad"
+twitter = "https://twitter.com/WlshGngstr"
 
 [navigation]
 home = "/"

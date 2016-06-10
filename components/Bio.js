@@ -12,7 +12,7 @@ class Bio extends React.Component {
         }}
       >
         <img
-          src={prefixLink('/ross-small-round.jpg')}
+          src={prefixLink('/images/ross-small-round.jpg')}
           alt={`author ${config.authorName}`}
           style={{
             float: 'left',

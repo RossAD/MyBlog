@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-  /* display: flex; */
+  display: flex;
   color: rgb(66,66,66);
   background: #ffffff;
 }

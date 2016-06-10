@@ -8,9 +8,7 @@ import Bio from 'components/Bio'
 class PortfolioIndex extends React.Component {
   render () {
     return (
-      <div style={{
-      border: '2px solid black',
-    }}>
+      <div >
         <div className="gitspy" style={{display:"inline-flex"}}>
           <img src={prefixLink('/images/gitspy.png')} style={{
             float:'left',

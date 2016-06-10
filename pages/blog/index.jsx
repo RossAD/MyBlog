@@ -34,10 +34,12 @@ class BlogIndex extends React.Component {
     return (
       <DocumentTitle title={config.blogTitle}>
         <div>
-          <Bio />
+          <h1>Welcome to the Blog of Ross!</h1>
+          <h4>Below are my most recent Blog posts:</h4>
           <ul>
             {pageLinks}
           </ul>
+          <Bio />
         </div>
       </DocumentTitle>
     )

@@ -27,7 +27,11 @@ class ContactIndex extends React.Component {
     
     return (
       <div>
-        <p>This is my contact page.</p>
+        <h1 style={{
+          'text-align':'center',
+          'text-decoration':'underline'
+        }}>Contact Information</h1>
+        <hr/>
         <div>
           <p><bold>Email: </bold><a href={"mailTo:"+ config.email }>{config.email}</a></p>
           <p><bold>Github: </bold><a href={"https://github.com/RossAD"}>{config.github}</a></p>
@@ -36,6 +40,7 @@ class ContactIndex extends React.Component {
           <p><bold>Twitter: </bold><a href={"https://twitter.com/WlshGngstr"
 }>{config.twitter}</a></p>
         </div>
+        <hr/>
         <Bio/>
       </div>
     )

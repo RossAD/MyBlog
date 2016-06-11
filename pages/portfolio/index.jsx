@@ -9,7 +9,12 @@ class PortfolioIndex extends React.Component {
   render () {
     return (
       <div >
-        <div className="gitspy" style={{display:"inline-flex"}}>
+        <h1 style={{
+          'text-align':'center',
+          'text-decoration':'underline'
+        }}>My Portfolio</h1>
+        <hr/>
+        <div className="gitspy" >
           <img src={prefixLink('/images/gitspy.png')} style={{
             float:'left',
             height:'20em',
@@ -24,7 +29,7 @@ class PortfolioIndex extends React.Component {
           }}>GitSpy is a communication tool for fast-moving software development teams. It gives you a real-time view of what your developer teammates are working on, and what files they are affecting locally.</p>
         </div>
         <hr/>
-        <div className="foodzen" style={{display:"inline-flex"}}>
+        <div className="foodzen" >
           <img src={prefixLink('/images/FoodZen.png')} style={{
             float:'left',
             height:'18em',
@@ -39,7 +44,7 @@ class PortfolioIndex extends React.Component {
           }}>A convenient web based tool to get recipes and nutritional information based on ingredients around the  kitchen.</p>
         </div>
         <hr/>
-        <div className="evently" style={{display:"inline-flex"}}>
+        <div className="evently" >
          <img src={prefixLink('/images/evently.png')} style={{
             float:'left',
             height:'20em',

@@ -77,6 +77,15 @@ div.dropdown {
   /* .cf { */
   /*   display: inline-flex; */
   /* } */
+  .gitspy {
+    display:inline-flex;
+  }
+  .foodzen {
+    display:inline-flex;
+  }
+  .evently {
+    display:inline-flex;
+  }
 }
 
 /* iPad Sizing 30em - 56.25 (480px - 900px) */
@@ -171,6 +180,9 @@ div.dropdown {
   }
   .cf:after {
     clear:both;
+  }
+  .gitspy .foodzen .evently {
+    display:none;
   }
 
 }

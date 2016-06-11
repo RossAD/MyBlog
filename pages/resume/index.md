@@ -1,5 +1,5 @@
 ---
-title: My Resume
+title: "Resume" 
 date: Tue Jun  7 01:08:50 UTC 2016
 path: "/resume/"
 ---

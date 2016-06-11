@@ -11,7 +11,7 @@ class MainIndex extends React.Component {
       <div>
         <div className="mainHead" style={{float: 'left', padding:"20px"}}>
           <img style={{height: '20em'}}
-            src={prefixLink('/BigBio.jpg')} />
+            src={prefixLink('/images/BigBio.jpg')} />
         </div>
         <div className="intro" style={{padding: '20px'}}>
         <p>Welcome to the personal web page of Ross A Davis.  I am a software engineer living and working in San Francisco.  I am a maker and a lifelong learner, always looking for new opportunities.  Look around my site and check me out, for a questions and/or comments head on over to my contact page.</p>

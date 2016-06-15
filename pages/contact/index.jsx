@@ -33,12 +33,12 @@ class ContactIndex extends React.Component {
         }}>Contact Information</h1>
         <hr/>
         <div>
-          <p><bold>Email: </bold><a href={"mailTo:"+ config.email }>{config.email}</a></p>
-          <p><bold>Github: </bold><a href={"https://github.com/RossAD"}>{config.github}</a></p>
+          <p><bold>Email: </bold><a href={"mailTo:"+ config.email } rel="me">{config.email}</a></p>
+          <p><bold>Github: </bold><a href={"https://github.com/RossAD"} rel="me">{config.github}</a></p>
           <p><bold>LinkedIn: </bold><a href={"https://www.linkedin.com/in/rossad"
-}>{config.linkedin}</a></p>
+} rel="me">{config.linkedin}</a></p>
           <p><bold>Twitter: </bold><a href={"https://twitter.com/WlshGngstr"
-}>{config.twitter}</a></p>
+} rel="me">{config.twitter}</a></p>
         </div>
         <hr/>
         <Bio/>

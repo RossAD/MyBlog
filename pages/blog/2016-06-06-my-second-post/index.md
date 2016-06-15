@@ -2,7 +2,6 @@
 title: Notes on Gatsby Templates 
 date: "Tue Jun  7 00:43:15 UTC 2016"
 layout: post
-readNext: "/"
 path: "/my-second-post/"
 ---
 

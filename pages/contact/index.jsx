@@ -28,8 +28,8 @@ class ContactIndex extends React.Component {
     return (
       <div>
         <h1 style={{
-          'text-align':'center',
-          'text-decoration':'underline'
+          'textAlign':'center',
+          'textDecoration':'underline'
         }}>Contact Information</h1>
         <hr/>
         <div>

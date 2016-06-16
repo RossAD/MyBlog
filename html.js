@@ -28,6 +28,9 @@ module.exports = React.createClass({
             name="viewport"
             content="width=device-width, initial-scale=1.0 maximum-scale=5.0"
           />
+          <link href="https://github.com/RossAD" rel="me">
+          <link href="https://twitter.com/WlshGngstr" rel="me">
+          <link href="https://www.linkedin.com/in/rossad" rel="me">
           <title>{title}</title>
           <TypographyStyle />
           {css}

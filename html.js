@@ -31,6 +31,7 @@ module.exports = React.createClass({
           <link href="https://github.com/RossAD" rel="me"></link>
           <link href="https://twitter.com/WlshGngstr" rel="me"></link>
           <link href="https://www.linkedin.com/in/rossad" rel="me"></link>
+          <link href="https://plus.google.com/+RossDavisV2" rel="me"></link>
           <title>{title}</title>
           <TypographyStyle />
           {css}

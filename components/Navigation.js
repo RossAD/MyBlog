@@ -47,7 +47,7 @@ class Navigation extends React.Component {
           </div>
         </nav>
         <div>
-          <img className="pano" src="../pages/images/webPano.jpg" />
+          <img className="pano" src={prefixLink("/images/webPano.jpg")} />
         </div>
       </header>
     )

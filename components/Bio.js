@@ -9,7 +9,7 @@ class Bio extends React.Component {
       <p style={{marginBottom: rhythm(2.5),}} class="h-card">
         <img
           class="u-photo"
-          src={prefixLink('/images/ross-small-round.png')}
+          src={prefixLink('/images/ross-small-round1.png')}
           alt={`author ${config.authorName}`}
           style={{
             float: 'left',

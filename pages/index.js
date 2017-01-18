@@ -9,8 +9,8 @@ class MainIndex extends React.Component {
   render () {
     return (
       <div>
-        <div class="h-card" className="mainHead" style={{float: 'left', padding:"20px"}}>
-          <img class="u-photo" style={{height: '20em'}}
+        <div className="h-card" className="mainHead" style={{float: 'left', padding:"20px"}}>
+          <img className="u-photo" style={{height: '20em'}}
             src={prefixLink('/images/BigBio2.png')} />
         </div>
         <div className="intro" style={{padding: '20px'}}>

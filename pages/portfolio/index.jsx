@@ -10,8 +10,8 @@ class PortfolioIndex extends React.Component {
     return (
       <div >
         <h1 style={{
-          'text-align':'center',
-          'text-decoration':'underline'
+          'textAlign':'center',
+          'textDecoration':'underline'
         }}>My Portfolio</h1>
         <hr/>
         <div className="gitspy" >

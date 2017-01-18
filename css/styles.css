@@ -21,7 +21,7 @@ blockquote {
   margin-right: 0;
   padding-right: 0;
 }
-.intro p::first-letter { 
+.intro p::first-letter {
   font-size: 200%;
   color: #8A2BE2;
 }
@@ -32,8 +32,8 @@ blockquote {
   /* opacity: 0.75; */
 }
 img.pano {
-  width:100%;
-  height:5%;
+  width: 100%;
+  height: 150px;
 }
 div.wrapper {
   width: 100%;
@@ -58,11 +58,16 @@ div.brand {
 /* .brand{ */
 /*   float: left; */
 /*   margin: auto; */
-/* } */ 
+/* } */
 div.dropdown {
   float:right;
   padding: 1.3em 0em .7em 1em;
   margin:auto;
+}
+
+.Resume-pdf {
+  display: flex;
+  justify-content: center;
 }
 
 /* Desktop Sizing 56.25em - Up (900px - Up) */

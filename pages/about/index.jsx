@@ -10,8 +10,8 @@ class AboutIndex extends React.Component {
     return (
       <div>
         <h1 style={{
-          "text-align":"center",
-          "text-decoration":"underline"
+          "textAlign":"center",
+          "textDecoration":"underline"
         }}>About</h1>
         <p>I am a full-stack engineer with extensive experience in both the server-side and client-side Javascript.  I love programming as it speaks to my nature as a maker, tinkerer, and a problem solver.  Working with software feeds my desire to find new and innovative ways to solve problems and improve user experience and feel.  I enjoy working in the full-stack as each end of the stack presents its own unique challenges and opportunities, of which I actively seek out and improve.
           

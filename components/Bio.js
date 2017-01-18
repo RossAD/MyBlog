@@ -6,9 +6,9 @@ import { prefixLink } from 'gatsby-helpers'
 class Bio extends React.Component {
   render () {
     return (
-      <p style={{marginBottom: rhythm(2.5),}} class="h-card">
+      <p style={{marginBottom: rhythm(2.5),}} className="h-card">
         <img
-          class="u-photo"
+          className="u-photo"
           src={prefixLink('/images/ross-small-round1.png')}
           alt={`author ${config.authorName}`}
           style={{

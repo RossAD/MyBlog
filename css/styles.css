@@ -25,6 +25,12 @@ blockquote {
   font-size: 200%;
   color: #8A2BE2;
 }
+
+.LI-profile-badge {
+  float:right;
+  padding-right: 50px;
+}
+
 #react-mount {
   /* background-color: #f7f7f7; */
   display: flex;
@@ -98,26 +104,28 @@ div.dropdown {
 }
 
 /* iPad Sizing 30em - 56.25 (480px - 900px) */
-@media screen and (max-width: 979px) {
-  #dropTag {
-    display:none;
-  }
-  ul.menu li {
-    display:inline-flex;
-  }
-  ul.menu li a {
-    padding: 10px 20px;
-
-  }
+/*
+ *@media screen and (max-width: 979px) {
+ *  #dropTag {
+ *    display:none;
+ *  }
+ *  ul.menu li {
+ *    display:inline-flex;
+ *  }
+ *  ul.menu li a {
+ *    padding: 10px 20px;
+ *
+ *  }
+ */
   /* .cf { */
   /*   display: inline-flex; */
   /* } */
-}
+/*}*/
 
 /* Mobile Sizing 20em - 30em (320px - 480px) */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 979px) {
   #dropTag {
-    display: flex;
+    text-align: center;
   }
   nav {
     max-width:100%;
@@ -141,13 +149,13 @@ div.dropdown {
     margin: auto;
     padding: 0;
     position: relative;
-    min-width: 100%;
+    min-width: 100px;
   }
   div.dropdown a {
     background: #ddd;
     color: #444;
     display: block;
-    padding: 0 35px;
+    /*padding: 0 40px;*/
     width: 100%;
     text-align: center;
     text-decoration: none;

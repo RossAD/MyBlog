@@ -6,7 +6,7 @@ import { config } from 'config'
 import include from 'underscore.string/include'
 
 class MainIndex extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     const script = document.createElement("script");
 
     script.src = "https://platform.linkedin.com/badges/js/profile.js";

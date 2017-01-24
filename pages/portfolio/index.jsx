@@ -15,7 +15,7 @@ class PortfolioIndex extends React.Component {
         }}>My Portfolio</h1>
         <hr/>
         <div className="gitspy" >
-          <img src={prefixLink('/images/gitspy.png')} style={{
+          <img src={prefixLink('/images/GitSpy.png')} style={{
             float:'left',
             height:'20em',
             width:'18em',
